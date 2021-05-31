@@ -26,7 +26,7 @@ public class Server {
 
         socket.close();
         System.out.println("Socket is closed");
-
+        server_socket.close();
     }
 
 
